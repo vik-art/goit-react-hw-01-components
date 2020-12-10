@@ -1,9 +1,13 @@
 import React from 'react';
+
 import user from './user.json';
 import Profile from './components/Profile';
 
 import Stats from './components/Statistics';
 import statistic from './statistical-data.json';
+
+import FriendList from './components/FriendList';
+import friends from './friends.json';
 
 export default function App() {
     return (
@@ -18,6 +22,9 @@ export default function App() {
         <Stats 
         title = "Upload statictic"
         stats = {statistic}
+        />
+        <FriendList 
+        items={friends}
         />
         </div>
     )
