@@ -1,0 +1,32 @@
+.card {
+  width: 300px;
+  height: 350px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+.avatar {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 36px;
+  text-align: center;
+}
+.tag,
+.location {
+  font-size: 24px;
+  margin-top: 5px;
+  text-align: center;
+}
+.stats {
+  font-size: 18px;
+  text-align: center;
+}
+.label {
+  font-weight: 700;
+}
+.quantity {
+  font-style: italic;
+}

@@ -1,0 +1,10 @@
+.transhistory {
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+}
+th,
+td {
+  border: 1px solid #000000;
+  text-align: center;
+}

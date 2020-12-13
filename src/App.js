@@ -1,13 +1,18 @@
 import React from 'react';
 
 import user from './user.json';
-import Profile from './components/Profile';
+import Profile from './components/Profile/Profile';
 
-import Stats from './components/Statistics';
+import Stats from './components/Statistic/Statistics';
 import statistic from './statistical-data.json';
 
-import FriendList from './components/FriendList';
+import FriendList from './components/Friends/FriendList';
 import friends from './friends.json';
+
+import TransactionHistory from './components/Transactions/TransactionHistory';
+import transactions from './transaction-history.json';
+
+import s from './base/main.module.css'
 
 export default function App() {
     return (
@@ -25,6 +30,9 @@ export default function App() {
         />
         <FriendList 
         items={friends}
+        />
+        <TransactionHistory 
+        items={transactions}
         />
         </div>
     )
