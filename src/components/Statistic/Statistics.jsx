@@ -8,7 +8,7 @@ const Stats = ({ title, stats }) => {
         <section className={s.statistics}>
             <h2>Task 2</h2>
             <div className={s.card}>
-              <h2 className={s.title}>{title}</h2>
+              {{title} && <h2 className={s.title}>{title}</h2>}
                 <ul className={s.list}>
                   { stats.map((stat) => {
                     return <li className={s.item} key = {stat.id}>
